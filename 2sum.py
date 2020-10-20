@@ -10,5 +10,7 @@ class Solution(object):
             for p in range(i+1, len(nums)):
                 if (nums[i] + nums[p] == target):
                     return i, p
+
+                # added comment   
                 # else:
                 #     return False      
