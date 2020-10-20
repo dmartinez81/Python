@@ -6,11 +6,12 @@ def prime_check(n):
 
     for i in range(2, n):
         if (n % i == 0):
-            return False
+            print(str(n) + ' divided by ' + str(i) + ' equals ' + str(n//i))
+            # return False
     else:
         return True
 
-n = 1000
+n = 1017
 result = str(prime_check(n))
 print('Result is:' + result)
 
