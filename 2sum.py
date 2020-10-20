@@ -11,6 +11,6 @@ class Solution(object):
                 if (nums[i] + nums[p] == target):
                     return i, p
 
-                # added comment 5
+                # added comment 6
                 # else:
                 #     return False      
