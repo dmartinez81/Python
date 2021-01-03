@@ -49,6 +49,7 @@ listA.AddToList(2)
 listA.AddToList(3)
 listA.AddToList(5)
 listA.AddToList(7)
+listA.AddToList(9)
 
 listA.PrintElements()
 print("\n\n")
